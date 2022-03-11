@@ -33,7 +33,7 @@ const jumble = originalText => {
       return word;
     }
 
-    const format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+    const format = /[ `@#$%^&*()_+\-=\[\]{};':"\\|<>\/~]/;
     if (format.test(word)) {
       return word;
     }
